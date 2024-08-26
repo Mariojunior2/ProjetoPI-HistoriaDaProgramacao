@@ -18,7 +18,7 @@
         <div id="obstacles"></div>
     </div>
     
-    <button id="startButton" onclick="incrementClick()">Iniciar Jogo</button>
+    <button id="startButton" onclick="incrementClick()">Iniciar o Jogo</button>
     <div id="infoText"></div>
     
     </div>
