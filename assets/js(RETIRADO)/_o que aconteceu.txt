@@ -1,0 +1,1 @@
+O javaScript foi retirado e colocado como "<script>" em um arquivo ".php", por conta do mal funcionamento do arquivo ".js"

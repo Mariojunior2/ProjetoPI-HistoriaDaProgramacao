@@ -1,0 +1,33 @@
+.start-button {
+    background-color: $verde-codigo;
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    font-size: 2em;
+    font-family: 'Press Start 2P';
+    cursor: pointer;
+    width: auto;
+    transition: all 0.1s;
+    height: 105px;
+    a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 1.4%;
+        margin: 10px;
+    }
+
+    &:hover {
+        background-color: green;
+    }
+
+}
+
+.gifcodigo {
+    background-image: url("https://sm.ign.com/ign_br/screenshot/default/giphy-2_99ec.gif");
+}

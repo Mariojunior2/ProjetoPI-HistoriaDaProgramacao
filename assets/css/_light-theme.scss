@@ -1,0 +1,54 @@
+body.light-theme {
+    transition: 1.4s;
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    li a {
+        color: black;
+    }
+    #inicio {
+        background-color: white;
+        transition: 1.4s;
+        color: black;
+    }
+
+    #halldafama {
+        background-color: rgb(255, 255, 255);
+        transition: 1.4s;
+        color: black;
+
+        .modal-content.modal-info{
+            background-color: white;
+        }
+        .modal {
+            background-color: rgba(0, 0, 0, 0.897);
+        }
+
+        span.close {
+            color: white;
+        }
+
+    }
+
+    #historia {
+        background-color: #ffffff;
+        transition: 1.4s;
+        .buttons button{
+            background-color: rgb(209, 205, 205);
+            color: black;
+        }
+        .container .content{
+            background-color: rgb(129, 128, 128);
+            color: black;
+        }
+    }
+    footer {
+        background-color: none;
+        color: white;
+        text-align: center;
+        background-color: none;
+    }
+    #sobrenós {
+        background-color: white;
+        transition: 1.4s;
+    }
+}

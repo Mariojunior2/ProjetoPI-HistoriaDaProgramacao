@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap); //fonte quadriculadinha do botão
+.press-start {
+    font-family: 'Press Start 2P';
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.roboto{
+    font-family: 'Roboto';
+}
+
+
+//CORES PADRÕES
+$backgroundcolor: #042603; 
+$dourado: #FFD700;
+$marfim: #FFFDD0;
+$azul-escuro: #000080;
+$bordeaux: #800020;
+$cinza-claro: #D3D3D3;
+$verde-menta: #98FF98;
+$preto: #000000;
+$branco: #FFFFFF;
+$verde-codigo: #19a014; 
+//2ba827 cor antiga caso queira
+$backgroundcolor: #042603; 
+// #2e3135 cor antiga caso queira 
+
+.gifcodigo{
+ background-image: "/assets/css/gif-codigos-editado";
+}

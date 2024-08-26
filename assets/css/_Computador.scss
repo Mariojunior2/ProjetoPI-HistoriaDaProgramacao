@@ -1,0 +1,187 @@
+.computer-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.computer-image {
+    width: 500px;
+    height: auto;
+}
+
+.clickable-parts .part {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    cursor: pointer;
+}
+
+#monitor {
+    text-align: center;
+    right: 90px;
+    top: 70px;
+    left: 110px;
+    width: 170px;
+    height: 140px;
+}
+
+#keyboard {
+    top: 227px;
+    left: 90px;
+    width: 210px;
+    height: 30px;
+}
+
+#cpu {
+    top: 70px;
+    left: 330px;
+    width: 80px;
+    height: 160px;
+}
+
+#floppy {
+    top: 242px;
+    left: 330px;
+    width: 55px;
+    height: 40px;
+}
+
+#info-box {
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #000;
+    display: none;
+    padding-left: 29px;
+    width: auto;
+}
+
+
+.back {
+    background-color: rgb(249, 255, 159);
+    position: absolute;
+    display: block;
+    justify-self: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    font-family: 'Press Start 2P';
+    font-size: 65%;
+    &:hover {
+        background-color: rgba(249, 255, 159, 0.671);
+    }
+    a {
+        color: blue;
+        text-decoration: none;
+        
+        &:hover {
+            color: rgba(0, 0, 161, 0.767);
+        }
+    }
+}
+
+#corp { 
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: rgb(249, 255, 159);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;   
+    
+}
+
+.imagemmonito {
+    float: left;
+    width: 500px; 
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.text {
+    overflow: hidden;
+}
+
+.borda-corp{
+    margin: 15px;
+}
+
+.imagemmonitorcontainer{
+    position: relative;
+    padding-bottom: 10px;
+    background-color: rgb(249, 255, 159);
+}
+
+/*
+
+.carousel-container {
+    position: relative;
+    width: 8000%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px transparent;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.carousel {
+    display: flex;
+  
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+ .carousel-control {
+    
+    top: 50%;
+    transform: translateY(50%);
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 28px;
+    
+}
+
+.carousel-control.prev {
+    left: -50%;
+
+    &:hover {
+        transition: all 1s ease;
+        color: black;
+    }
+}
+
+.carousel-control.next {
+    right: -50%;
+    
+    &:hover {
+        transition: all 1s ease;
+        color: black;
+    }
+}
+
+*/
+
+
+

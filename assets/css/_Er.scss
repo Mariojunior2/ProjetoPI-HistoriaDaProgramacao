@@ -1,0 +1,43 @@
+
+.old-monitor {
+    border: 10px solid gray;
+    border-radius: 15px;
+    padding: 90px;
+    background: black;
+    height: 90%;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    display:  flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: lime;
+    width: 100%;
+} 
+
+
+.screen {
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.buttons button {
+    background: #333;
+    border: 2px solid #666;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+}
+
+.buttons button:hover {
+    background: #555;
+}
