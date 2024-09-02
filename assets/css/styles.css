@@ -102,6 +102,11 @@ body.light-theme #inicio {
   transition: 1.4s;
   color: black;
 }
+body.light-theme .contentCuriosidades {
+  background-color: white;
+  transition: 1.4s;
+  color: black;
+}
 body.light-theme #halldafama {
   background-color: rgb(255, 255, 255);
   transition: 1.4s;
@@ -350,6 +355,20 @@ h1.CS {
   font-size: 1.2em;
 }
 
+.contentCuriosidades {
+  margin: 100px;
+  box-sizing: box;
+  border-left: 5px solid rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  background-color: #043f0c;
+  width: auto;
+  transition: 1.4s ease;
+}
+.contentCuriosidades p {
+  transition: 1.3s;
+}
+
 #historia {
   margin: 100px;
   box-sizing: box;
@@ -445,6 +464,18 @@ body.dark-theme #halldafama .modal-content {
 }
 body.dark-theme #halldafama .modal {
   background-color: rgba(0, 0, 0, 0.884);
+}
+body.dark-theme .contentCuriosidades {
+  transition: 1.4;
+  background-color: black;
+  color: green;
+  margin: 100px;
+  box-sizing: box;
+  border-left: 10px solid rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  position: relative;
+  transition: 1.4s ease;
 }
 body.dark-theme #historia {
   transition: 1.4;

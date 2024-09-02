@@ -241,6 +241,21 @@ h1.CS {
 
 }
 
+.contentCuriosidades {
+    margin: 100px;
+    box-sizing: box;
+    border-left: 5px solid rgb(0, 0, 0);
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 10px;
+    background-color: #043f0c;
+    width: auto;
+    transition: 1.4s ease;
+
+    
+    p {
+        transition: 1.3s;
+    }
+}
 
 #historia {
     margin: 100px;
@@ -287,6 +302,7 @@ h1.CS {
         transition: 1.3s;
     }
 }
+
 
 
 
@@ -357,6 +373,19 @@ body.dark-theme {
         }
     }
 
+    .contentCuriosidades {
+    transition: 1.4;
+    background-color: black;
+    color: green;
+    margin: 100px;
+    box-sizing: box;
+    border-left: 10px solid rgb(0, 0, 0);
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 10px;
+    position: relative;
+    transition: 1.4s ease;
+
+    }
 
     #historia {
        transition: 1.4;

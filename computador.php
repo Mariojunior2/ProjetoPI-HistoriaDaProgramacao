@@ -16,4 +16,5 @@
     </div>
 </div>
 <div id="info-box"></div>
-
+</div>
+<?php include 'curiosidades.php'?>

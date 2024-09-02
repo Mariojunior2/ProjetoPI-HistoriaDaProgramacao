@@ -36,6 +36,9 @@
                     </ul>
                 </li>
                 <li class="Fechar">
+                    <a href="#">Curiosidades</a>
+                </li>
+                <li class="Fechar">
                     <a href="#sobrenós">Sobre nós</a>          
                 </li>
             </ul>
