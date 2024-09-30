@@ -36,7 +36,7 @@
                     </ul>
                 </li>
                 <li class="Fechar">
-                    <a href="#">Curiosidades</a>
+                    <a href="#contentCuriosidades">Curiosidades</a>
                 </li>
                 <li class="Fechar">
                     <a href="#sobrenós">Sobre nós</a>          

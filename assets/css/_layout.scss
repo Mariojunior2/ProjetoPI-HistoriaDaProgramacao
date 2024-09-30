@@ -241,7 +241,7 @@ h1.CS {
 
 }
 
-.contentCuriosidades {
+#contentCuriosidades {
     margin: 100px;
     box-sizing: box;
     border-left: 5px solid rgb(0, 0, 0);
@@ -373,7 +373,7 @@ body.dark-theme {
         }
     }
 
-    .contentCuriosidades {
+    #contentCuriosidades {
     transition: 1.4;
     background-color: black;
     color: green;

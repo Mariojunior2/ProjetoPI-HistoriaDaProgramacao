@@ -1,4 +1,4 @@
-<div class="contentCuriosidades">
+<div id="contentCuriosidades">
     <h1>Curiosidades</h1>
     <ul class="curio">
 
