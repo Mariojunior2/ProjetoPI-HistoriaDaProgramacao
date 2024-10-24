@@ -12025,7 +12025,9 @@ textarea.form-control-lg {
   text-decoration: underline;
   transition: width 0.3s ease 0s, left 0.3s ease;
   transform: scale(1.005);
-  background-color: rgba(0, 0, 0, 0.055);
+  background-color: rgba(0, 0, 0, 0.021);
+  color: rgb(184, 184, 184);
+  background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
 .menuzinho ul .Abrir {

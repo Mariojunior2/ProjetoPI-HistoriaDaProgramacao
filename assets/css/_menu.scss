@@ -46,7 +46,9 @@
     text-decoration: underline;
     transition: width 0.3s ease 0s, left 0.3s ease;
     transform: scale(1.005);
-    background-color: rgba(0, 0, 0, 0.055);
+    background-color: rgba(0, 0, 0, 0.021);
+    color: rgb(184, 184, 184);
+    background-color: $gradient;
 }
 
 .menuzinho ul .Abrir {

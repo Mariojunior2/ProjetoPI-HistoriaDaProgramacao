@@ -697,10 +697,9 @@
         toggleButton.addEventListener('click', () => {
             if (body.classList.contains('light-theme')) {
                 body.classList.replace('light-theme', 'dark-theme');
-                localStorage.setItem('theme', 'dark');
             } else {
                 body.classList.replace('dark-theme', 'light-theme');
-                localStorage.setItem('theme', 'light');
+
             }
         });
     });
