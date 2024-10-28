@@ -1,0 +1,449 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto";
+  color: white;
+  scroll-behavior: initial;
+}
+
+body.gif-background {
+  background-image: url("https://sm.ign.com/ign_br/screenshot/default/giphy-2_99ec.gif");
+  background-repeat: no-repeat;
+  background-size: 1880px;
+  background-color: #141414;
+}
+
+header nav ul li a {
+  font-weight: bold;
+}
+
+.transition {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 200px;
+  margin: 61px;
+  transition: transform 0.2s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #5e5109;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+  z-index: 4;
+  border: 5px solid gold;
+  position: static;
+}
+
+div.info {
+  position: absolute;
+  display: flex;
+  background-color: rgba(32, 109, 32, 0.733);
+  border-radius: 1px;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  font-size: 10px;
+}
+
+h2.le {
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: fadeIn 1s ease-out;
+  display: block !important;
+}
+
+.decoracaozero {
+  text-decoration: none;
+  color: white;
+}
+.decoracaozero:hover {
+  text-decoration: underline;
+}
+
+#sobrenós {
+  justify-content: end;
+  margin: 0%;
+  bottom: 0;
+  position: static;
+}
+
+#chat-container {
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  height: -1px;
+  color: black;
+}
+
+#chat-input,
+button {
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  bottom: 0;
+}
+
+#chat-log {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.chat-message {
+  padding: 8px;
+  margin: 2%;
+  padding-right: 10px;
+  background-color: limegreen;
+  border-radius: 4px;
+  animation: typing 1s steps(20) 1s forwards, fadeIn 0.5s forwards;
+  opacity: 10;
+  justify-content: center;
+  margin-left: 0px;
+  justify-content: space-between;
+  color: black;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+input[type=text],
+button.pi {
+  width: 100%;
+  padding: 10px;
+  padding-right: 140px;
+  margin-left: 0px;
+  border-color: none;
+  margin-top: 10px;
+}
+input[type=text]:hover,
+button.pi:hover {
+  transform: scale(1.005);
+}
+
+button.pi {
+  background-color: #0fd82a;
+  border: none;
+  margin-left: 0px;
+}
+button.pi a {
+  text-decoration: none;
+  color: white;
+}
+button.pi:hover {
+  transform: scale(1.005);
+  font-size: 10px;
+  background-color: #059217;
+}
+
+h1.CS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+}
+
+#halldafama {
+  margin: 100px;
+  box-sizing: box;
+  font-family: "Press Start 2P", Courier, monospace;
+  background-color: #4b0114;
+  color: #FFFFFF;
+  border-left: 7px solid #000000;
+  border-radius: 1%;
+  transition: 1.4s ease;
+}
+#halldafama p {
+  transition: 1.3s;
+  font-size: 1.2em;
+}
+
+#contentCuriosidades {
+  margin: 100px;
+  box-sizing: box;
+  border-left: 5px solid black;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  background-color: #043f0c;
+  width: auto;
+  transition: 1.4s ease;
+}
+#contentCuriosidades p {
+  transition: 1.3s;
+}
+
+#historia {
+  margin: 100px;
+  box-sizing: box;
+  border-left: 5px solid black;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  background-color: #043f0c;
+  width: auto;
+  transition: 1.4s ease;
+}
+#historia p {
+  transition: 1.3s;
+}
+
+#sobrenós {
+  margin: 100px;
+  box-sizing: box;
+  border-left: 10px solid black;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #058316;
+  border-radius: 10px;
+  transition: 1.4s ease;
+  color: black;
+}
+#sobrenós p {
+  transition: 1.3s;
+}
+
+#inicio {
+  margin: 100px;
+  box-sizing: box;
+  border-left: 10px solid black;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #058316;
+  border-radius: 10px;
+  position: relative;
+  transition: 1.4s ease;
+}
+#inicio p {
+  transition: 1.3s;
+}
+
+.animationone {
+  position: relative;
+  animation: mymove 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes mymove {
+  from {
+    top: 300px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.animationtwo {
+  position: relative;
+  animation: mymove 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes mymove {
+  from {
+    right: 100px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+:root {
+  --background-color-light: #3b3b3b;
+  --text-color-light: #000000;
+  --background-color-dark: rgb(68, 68, 68);
+  --text-color-dark: #ffffff;
+  transition: 1.4s;
+}
+
+body.dark-theme {
+  text-align: justify;
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+  transition: 1.4s;
+}
+body.dark-theme #halldafama {
+  transition: 1.4;
+  background-color: black;
+  color: green;
+}
+body.dark-theme #halldafama .modal-content {
+  background-color: rgba(0, 0, 0, 0);
+}
+body.dark-theme #halldafama .modal {
+  background-color: rgba(0, 0, 0, 0.884);
+}
+body.dark-theme #contentCuriosidades {
+  transition: 1.4;
+  background-color: black;
+  color: green;
+  margin: 100px;
+  box-sizing: box;
+  border-left: 10px solid black;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  position: relative;
+  transition: 1.4s ease;
+}
+body.dark-theme #historia {
+  transition: 1.4;
+  background-color: black;
+  color: green;
+}
+body.dark-theme #sobrenós {
+  color: green;
+  transition: 1.4;
+  background-color: #000000;
+}
+body.dark-theme #inicio {
+  transition: 1.4;
+  background-color: #000000;
+  color: green;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+#theme-toggle {
+  transition: 0.5s;
+  position: fixed;
+  right: 10px;
+  padding: 1px 1px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  width: auto;
+  font-size: 11px;
+  background-color: none;
+}
+#theme-toggle#theme-toggle:hover {
+  font-size: 13px;
+}
+
+.output {
+  transition: 1s all ease;
+  transform: 1s all ease;
+}
+
+.href-hover {
+  position: relative;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+#href-container {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+  z-index: 10;
+  width: 200px;
+}
+
+#href-container img {
+  width: 100%;
+}
+
+footer {
+  background-color: none;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-top: #444;
+  font-style: italic;
+}
+
+footer h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+footer h3:hover {
+  color: #ffcc00;
+  transition: color 0.3s ease-in-out;
+}
+
+ul.source-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+footer ul.source-list li {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #cccccc;
+}
+
+ul.source-list li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+ul.source-list li a:hover {
+  transition: color 0.3s ease-in-out;
+  color: #ffcc00;
+}
+
+h3, p {
+  text-align: justify;
+  font-size: 25px !important;
+}

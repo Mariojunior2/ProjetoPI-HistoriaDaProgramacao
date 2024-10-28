@@ -60,7 +60,7 @@
   transition: width 0.3s ease 0s, left 0.3s ease;
   transform: scale(1.005);
   background-color: rgba(0, 0, 0, 0.021);
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
 }
 
 .menuzinho ul .Abrir {
@@ -109,7 +109,7 @@ body.light-theme #contentCuriosidades {
   color: black;
 }
 body.light-theme #halldafama {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   transition: 1.4s;
   color: black;
 }
@@ -127,11 +127,11 @@ body.light-theme #historia {
   transition: 1.4s;
 }
 body.light-theme #historia .buttons button {
-  background-color: rgb(209, 205, 205);
+  background-color: #d1cdcd;
   color: black;
 }
 body.light-theme #historia .container .content {
-  background-color: rgb(129, 128, 128);
+  background-color: #818080;
   color: black;
 }
 body.light-theme footer {
@@ -155,7 +155,7 @@ body.gif-background {
   background-image: url("https://sm.ign.com/ign_br/screenshot/default/giphy-2_99ec.gif");
   background-repeat: no-repeat;
   background-size: 1880px;
-  background-color: rgb(20, 20, 20);
+  background-color: #141414;
 }
 
 header nav ul li a {
@@ -189,7 +189,7 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: rgb(94, 81, 9);
+  background-color: #5e5109;
 }
 
 .galeria img:hover {
@@ -359,7 +359,7 @@ h1.CS {
 #contentCuriosidades {
   margin: 100px;
   box-sizing: box;
-  border-left: 5px solid rgb(0, 0, 0);
+  border-left: 5px solid black;
   font-family: "Courier New", Courier, monospace;
   border-radius: 10px;
   background-color: #043f0c;
@@ -373,7 +373,7 @@ h1.CS {
 #historia {
   margin: 100px;
   box-sizing: box;
-  border-left: 5px solid rgb(0, 0, 0);
+  border-left: 5px solid black;
   font-family: "Courier New", Courier, monospace;
   border-radius: 10px;
   background-color: #043f0c;
@@ -387,7 +387,7 @@ h1.CS {
 #sobrenós {
   margin: 100px;
   box-sizing: box;
-  border-left: 10px solid rgb(0, 0, 0);
+  border-left: 10px solid black;
   font-family: "Courier New", Courier, monospace;
   background-color: #058316;
   border-radius: 10px;
@@ -401,7 +401,7 @@ h1.CS {
 #inicio {
   margin: 100px;
   box-sizing: box;
-  border-left: 10px solid rgb(0, 0, 0);
+  border-left: 10px solid black;
   font-family: "Courier New", Courier, monospace;
   background-color: #058316;
   border-radius: 10px;
@@ -473,7 +473,7 @@ body.dark-theme #contentCuriosidades {
   color: green;
   margin: 100px;
   box-sizing: box;
-  border-left: 10px solid rgb(0, 0, 0);
+  border-left: 10px solid black;
   font-family: "Courier New", Courier, monospace;
   border-radius: 10px;
   position: relative;
@@ -590,7 +590,7 @@ ul.source-list li a:hover {
 
 h3, p {
   text-align: justify;
-  font-size: 25px !important;
+  font-size: 20px !important;
 }
 
 .start-button {
@@ -636,7 +636,7 @@ h3, p {
   content: "";
   position: absolute;
   width: 6px;
-  background-color: rgb(66, 66, 66);
+  background-color: #424242;
   border-radius: 10px;
   top: 0;
   bottom: 0;
@@ -667,14 +667,14 @@ h3, p {
 
 .container .content {
   padding: 20px 30px;
-  background-color: rgb(68, 68, 68);
+  background-color: #444444;
   position: relative;
   border-radius: 80px;
   transition: all 0.4s ease;
   font-family: "Courier New", Courier, monospace;
 }
 .container .content:hover {
-  background-color: rgb(51, 50, 50);
+  background-color: #333232;
   background-repeat: repeat-y;
   background-size: cover;
 }
@@ -682,22 +682,22 @@ h3, p {
 .container .content h2 {
   margin-top: 0;
   transition: all 1s;
-  color: rgb(65, 65, 65);
+  color: #414141;
   transition: all 1s;
-  color: rgb(8, 228, 8);
+  color: #08e408;
   background-color: rgba(255, 255, 255, 0);
 }
 .container .content h2:hover {
   border-radius: 10px;
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to right, rgb(217, 255, 0), rgb(115, 255, 0), rgb(0, 255, 0));
+  background-image: linear-gradient(to right, #d9ff00, #73ff00, lime);
   color: transparent;
 }
 
 .container .content p {
   transition: all 1s;
-  color: rgb(15, 230, 15);
+  color: #0fe60f;
   letter-spacing: 1.5px;
   background-color: rgba(255, 235, 205, 0);
 }
@@ -705,7 +705,7 @@ h3, p {
   border-radius: 10px;
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to right, rgb(0, 255, 85), rgb(0, 255, 42), rgb(0, 255, 0));
+  background-image: linear-gradient(to right, #00ff55, #00ff2a, lime);
   color: transparent;
 }
 
@@ -769,11 +769,6 @@ body {
   bottom: 0;
 }
 
-footer .footer {
-  text-align: center !important;
-  font-size: 25px !important;
-}
-
 .obstacle {
   width: 20px;
   background-color: #000;
@@ -815,7 +810,6 @@ button#startButton:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: -moz-max-content;
   width: max-content;
   position: relative;
   margin: 10px;
@@ -857,8 +851,7 @@ button#startButton:hover {
   background-color: red;
   position: absolute;
   bottom: 0;
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 #geometryDashCounter {
@@ -887,9 +880,9 @@ body {
 
 .bird {
   position: relative;
-  margin: 70px;
+  margin: 0;
   font-size: 160%;
-  padding: 0;
+  padding: 10%;
 }
 
 .bird1 {
@@ -988,7 +981,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: rgb(73, 73, 73);
+  background-color: #494949;
   border-radius: 10px;
 }
 
@@ -1024,8 +1017,8 @@ main {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
+  background-color: black;
+  background-color: black;
 }
 
 .modal-content {
@@ -1065,11 +1058,6 @@ main {
 .close:focus {
   text-decoration: none;
   cursor: pointer;
-}
-
-.justimg img {
-  width: 200px;
-  height: 245px;
 }
 
 /* // PARTE DO PERSONAGEM 
@@ -1209,7 +1197,7 @@ button {
 }
 
 .back {
-  background-color: rgb(249, 255, 159);
+  background-color: #f9ff9f;
   position: absolute;
   display: block;
   justify-self: flex-start;
@@ -1234,7 +1222,7 @@ button {
   align-items: center;
   justify-content: space-between;
   justify-content: center;
-  background-color: rgb(249, 255, 159);
+  background-color: #f9ff9f;
   margin-left: 200px;
   margin-right: 200px;
   border-radius: 10px;
@@ -1260,7 +1248,7 @@ button {
 .imagemmonitorcontainer {
   position: relative;
   padding-bottom: 10px;
-  background-color: rgb(249, 255, 159);
+  background-color: #f9ff9f;
 }
 
 /*
@@ -1326,4 +1314,4 @@ button {
     }
 }
 
-*//*# sourceMappingURL=styles.css.map */
+*/

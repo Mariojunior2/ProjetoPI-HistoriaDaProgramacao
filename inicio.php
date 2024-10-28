@@ -6,9 +6,9 @@
         <h1 class="meio">A Fascinante Jornada da Programação <br> Da Origem ao Futuro</h1>
         <h2 class="bird1">Explorando as Raízes e a Evolução da Ciência da Computação</h2>
         </h1>
-        <p class="bird">A história da programação  é uma jornada rica e fascinante que nos transporta  desde os primeiros algoritmos matemáticos até as avançadas inteligências artificiais de hoje. Este site foi criado para  guiá-lo através dos marcos mais significativos dessa evolução,  destacando os pioneiros e as inovações que moldaram o mundo digital que conhecemos.
-
-            No início, tivemos visionários como Ada Lovelace, que escreveu o primeiro algoritmo destinado a ser processado  por uma máquina, lançando as bases para tudo o que viria depois. Avançando para a década de 1940, encontramos  Alan Turing, cujas ideias sobre computação e inteligência artificial  abriram caminhos para desenvolvimentos futuros.
+        <p class="bird">A história da programação possui uma jornada rica e fascinante. E este site foi criado para  guiá-lo através dos marcos mais significativos dessa evolução,  destacando os pioneiros e as inovações que moldaram o mundo digital que conhecemos.
+            
+            No início, haviam visionários como Ada Lovelace, que escreveu o primeiro algoritmo destinado a ser processado  por uma máquina, lançando as bases para tudo o que viria depois. Avançando para a década de 1940, encontramos  Alan Turing, cujas ideias sobre computação e inteligência artificial  abriram caminhos para desenvolvimentos futuros.
 
             À medida que avançamos através das décadas , vemos a programação evoluir de linguagens de baixo nível, como Assembly, para linguagens de alto nível como Python e JavaScript, que democratizaram a criação de software e possibilitaram a revolução digital. As décadas de 1960 e 1970 trouxeram a popularização dos computadores pessoais, impulsionando uma era de inovação sem precedentes com figuras como Bill Gates e Steve Jobs, que tornaram a computação acessível ao público em geral.</p>
     </div>

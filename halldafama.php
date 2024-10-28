@@ -17,7 +17,7 @@ $audioFilePath11 = 'audios/Tim_lee2.mp3';
         <h3 class="le">
             A programação teve diversos nomes importantes em sua história, que tal vc conhecer algumas dessas pessoas, basta você clicar na foto de cada um. 
         </h3>
-        <div class="galeria">
+        <div class="galeria justimg">
             <div class="item" onclick="showModal(this.querySelector('img'), this.querySelector('.info'));">
                 <img src="assets/images/hall_da_fama/charles_babbage_1.jpg" alt="Charles Babbage">
                 <div class="info">

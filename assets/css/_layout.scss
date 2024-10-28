@@ -353,7 +353,7 @@ h1.CS {
 }
 
 body.dark-theme {
-
+    text-align: justify;
     background-color: var(--background-color-dark);
     color: var(--text-color-dark);
     transition: 1.4s;
@@ -501,4 +501,9 @@ ul.source-list li a {
 ul.source-list li a:hover {
     transition: color 0.3s ease-in-out;
     color: #ffcc00; 
+}
+
+h3, p {
+    text-align: justify;
+    font-size: 25px !important;
 }

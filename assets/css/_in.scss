@@ -39,6 +39,11 @@
 
 }
 
+footer .footer {
+    text-align: center !important;
+    font-size: 25px !important;
+}
+
 .obstacle {
     width: 20px;
     background-color: #000;
@@ -164,9 +169,9 @@ body {
 
 .bird {
     position: relative;
-    margin: auto;
-    font-size: 120%;
-    padding: 10%;
+    margin: 70px;
+    font-size: 160%;
+    padding: 0;
 }
 
 .bird1 {
