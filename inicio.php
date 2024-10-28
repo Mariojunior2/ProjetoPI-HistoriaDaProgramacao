@@ -3,7 +3,7 @@
 <div id="inicio" class="animationone">
 
     <div id="in1">
-        <h1 class="meio">A Fasciante Jornada da Programação <br> Da Origem ao Futuro</h1>
+        <h1 class="meio">A Fascinante Jornada da Programação <br> Da Origem ao Futuro</h1>
         <h2 class="bird1">Explorando as Raízes e a Evolução da Ciência da Computação</h2>
         </h1>
         <p class="bird">A história da programação  é uma jornada rica e fascinante que nos transporta  desde os primeiros algoritmos matemáticos até as avançadas inteligências artificiais de hoje. Este site foi criado para  guiá-lo através dos marcos mais significativos dessa evolução,  destacando os pioneiros e as inovações que moldaram o mundo digital que conhecemos.
