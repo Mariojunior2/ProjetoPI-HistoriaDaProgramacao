@@ -459,7 +459,7 @@ body.dark-theme {
 body.dark-theme #halldafama {
   transition: 1.4;
   background-color: black;
-  color: green;
+  color: rgb(17, 255, 17);
 }
 body.dark-theme #halldafama .modal-content {
   background-color: rgba(0, 0, 0, 0);
@@ -470,7 +470,7 @@ body.dark-theme #halldafama .modal {
 body.dark-theme #contentCuriosidades {
   transition: 1.4;
   background-color: black;
-  color: green;
+  color: rgb(17, 255, 17);
   margin: 100px;
   box-sizing: box;
   border-left: 10px solid rgb(0, 0, 0);
@@ -482,17 +482,17 @@ body.dark-theme #contentCuriosidades {
 body.dark-theme #historia {
   transition: 1.4;
   background-color: black;
-  color: green;
+  color: rgb(17, 255, 17);
 }
 body.dark-theme #sobrenós {
-  color: green;
+  color: rgb(17, 255, 17);
   transition: 1.4;
   background-color: #000000;
 }
 body.dark-theme #inicio {
   transition: 1.4;
   background-color: #000000;
-  color: green;
+  color: rgb(17, 255, 17);
 }
 
 .content {

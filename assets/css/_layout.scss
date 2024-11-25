@@ -363,7 +363,7 @@ body.dark-theme {
     #halldafama {
         transition: 1.4;
         background-color:black;
-        color: green;
+        color: rgb(17, 255, 17); // ESSA COR TÁ BOA?
 
         .modal-content {
             background-color: rgba(0, 0, 0, 0);
@@ -376,7 +376,7 @@ body.dark-theme {
     #contentCuriosidades {
     transition: 1.4;
     background-color: black;
-    color: green;
+    color: rgb(17, 255, 17); // ESSA COR TÁ BOA?
     margin: 100px;
     box-sizing: box;
     border-left: 10px solid rgb(0, 0, 0);
@@ -390,11 +390,11 @@ body.dark-theme {
     #historia {
        transition: 1.4;
        background-color: black;
-       color: green;
+       color: rgb(17, 255, 17); // ESSA COR TÁ BOA?
     }
 
     #sobrenós {
-        color: green;
+        color: rgb(17, 255, 17); // ESSA COR TÁ BOA?
         transition: 1.4;
         background-color: #000000;
     }
@@ -402,7 +402,7 @@ body.dark-theme {
     #inicio {
         transition: 1.4;
         background-color: #000000;
-        color: green;
+        color: rgb(17, 255, 17); // ESSA COR TÁ BOA?
     }
 }
 

@@ -15,7 +15,7 @@ $audioFilePath11 = 'audios/Tim_lee2.mp3';
 <div id="halldafama" class="animationtwo">
         <h2>Hall da Fama</h2>
         <h3 class="le">
-            A programação teve diversos nomes importantes em sua história, que tal vc conhecer algumas dessas pessoas, basta você clicar na foto de cada um. 
+            A programação teve diversos nomes importantes em sua história, que tal você conhecer algumas dessas pessoas, basta você clicar na foto de cada um. 
         </h3>
         <div class="galeria justimg">
             <div class="item" onclick="showModal(this.querySelector('img'), this.querySelector('.info'));">
