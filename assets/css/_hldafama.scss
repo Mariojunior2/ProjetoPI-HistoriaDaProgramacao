@@ -60,7 +60,7 @@ main {
 .galeria img:hover {
     transform: scale(1.05);
     z-index: 4;
-    border: 5px solid gold;
+    border: 5px solid rgb(17, 255, 17);
     position: static;
 }
 
@@ -139,5 +139,12 @@ main {
     img {
         width: 200px;
         height: 245px;
+        object-fit: cover;
     }
+}
+.obj-l{
+    object-position: left;
+}
+.obj-r{
+    object-position: right;
 }

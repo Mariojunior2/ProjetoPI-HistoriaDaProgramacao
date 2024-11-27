@@ -90,7 +90,17 @@
   max-height: 500px;
 }
 
+h3, p {
+  text-align: center !important;
+  font-size: 25px !important;
+}
+
+.le {
+  padding: 7%;
+}
+
 body.light-theme {
+  font-family: "Courier New", Courier, monospace !important;
   transition: 1.4s;
   background-color: var(--background-color-light);
   color: var(--text-color-light);
@@ -995,7 +1005,7 @@ main {
 .galeria img:hover {
   transform: scale(1.05);
   z-index: 4;
-  border: 5px solid gold;
+  border: 5px solid rgb(17, 255, 17);
   position: static;
 }
 
@@ -1070,6 +1080,18 @@ main {
 .justimg img {
   width: 200px;
   height: 245px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.obj-l {
+  -o-object-position: left;
+     object-position: left;
+}
+
+.obj-r {
+  -o-object-position: right;
+     object-position: right;
 }
 
 /* // PARTE DO PERSONAGEM 

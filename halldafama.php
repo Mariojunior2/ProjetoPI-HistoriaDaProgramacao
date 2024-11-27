@@ -172,7 +172,7 @@ $audioFilePath11 = 'audios/Tim_lee2.mp3';
             </div>
 
             <div class="item" onclick="showModal(this.querySelector('img'), this.querySelector('.info'));">
-                <img src="assets/images/hall_da_fama/Donald_knuth1.png" alt="Donald Knuth">
+                <img src="assets/images/hall_da_fama/Donald_knuth1.png" alt="Donald Knuth" class="obj-l">
                 <div class="info">
                     <h3>Donald Knuth</h3>
                     <h4>Donald Ervin Knuth é um renomado cientista da computação e professor emérito da Universidade de Stanford, autor do livro "The Art of Computer Programming," uma das principais referências na ciência da computação.</h4>
@@ -228,7 +228,7 @@ $audioFilePath11 = 'audios/Tim_lee2.mp3';
                 </div>
             </div>
             <div class="item" onclick="showModal(this.querySelector('img'), this.querySelector('.info'));">
-                <img src="assets/images/hall_da_fama/Tim_lee1.jpg" alt="Tim Lee">
+                <img src="assets/images/hall_da_fama/Tim_lee1.jpg" alt="Tim Lee" class="obj-r">
                 <div class="info">
                     <h3>Timothy John Berners-Lee </h3>
                     <h4>Sir Timothy John Berners-Lee KBE, OM, FRS é um físico britânico, cientista da computação e professor do MIT. Nascido em 8 de junho de 1955, em Londres, Reino Unido, é amplamente reconhecido como o criador da World Wide Web.</h4>

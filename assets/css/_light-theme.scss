@@ -1,4 +1,15 @@
+h3, p  {
+    text-align: center !important;
+    font-size: 25px !important;
+}
+
+.le {
+    padding: 7%;
+}
+
 body.light-theme {
+    font-family: 'Courier New', Courier, monospace !important;
+
     transition: 1.4s;
     background-color: var(--background-color-light);
     color: var(--text-color-light);
@@ -15,6 +26,7 @@ body.light-theme {
         transition: 1.4s;
         color: black;
     }
+
 
     #halldafama {
         background-color: rgb(255, 255, 255);
